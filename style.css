@@ -2,12 +2,7 @@ main {
 	margin: 5px;
 }
 
-.container {
-	margin-right: 10px;
-	margin-left: 10px;
-	background-color: lightgray;
 
-}
 
 a.nounderline:link {
 	text-decoration:none;
@@ -16,3 +11,24 @@ a.nounderline:link {
 h1.cabecalho {
 	color: black;
 }
+
+.logo {
+float: left;
+max-width: 40px;
+max-height: 120px;
+
+}
+
+
+
+
+
+/*
+.container {
+	margin-right: 10px;
+	margin-left: 10px;
+	background-color: lightgray;
+
+}
+
+*/
