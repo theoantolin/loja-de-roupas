@@ -1,3 +1,18 @@
+main {
+	margin: 5px;
+}
 
+.container {
+	margin-right: 10px;
+	margin-left: 10px;
+	background-color: lightgray;
 
+}
 
+a.nounderline:link {
+	text-decoration:none;
+}
+
+h1.cabecalho {
+	color: black;
+}
