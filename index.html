@@ -68,6 +68,69 @@
 				<div class="row">
     			<div class="col-3 justify-content-center" id="categorias">
       			<span>CATEGORIAS</span>
+
+						<div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+    					<a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+      				<svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      				<span class="fs-5 fw-semibold">Collapsible</span>
+    					</a>
+    <ul class="list-unstyled ps-0">
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+          Home
+        </button>
+        <div class="collapse show" id="home-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">Overview</a></li>
+            <li><a href="#" class="link-dark rounded">Updates</a></li>
+            <li><a href="#" class="link-dark rounded">Reports</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+          Dashboard
+        </button>
+        <div class="collapse" id="dashboard-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">Overview</a></li>
+            <li><a href="#" class="link-dark rounded">Weekly</a></li>
+            <li><a href="#" class="link-dark rounded">Monthly</a></li>
+            <li><a href="#" class="link-dark rounded">Annually</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+        Orders
+        </button>
+        <div class="collapse" id="orders-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">New</a></li>
+            <li><a href="#" class="link-dark rounded">Processed</a></li>
+            <li><a href="#" class="link-dark rounded">Shipped</a></li>
+            <li><a href="#" class="link-dark rounded">Returned</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="border-top my-3"></li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+          Conta
+        </button>
+        <div class="collapse" id="account-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">New...</a></li>
+            <li><a href="#" class="link-dark rounded">Profile</a></li>
+            <li><a href="#" class="link-dark rounded">Settings</a></li>
+            <li><a href="#" class="link-dark rounded">Sign out</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
 						<ul>
 							<li></li>
 							<li></li>
@@ -84,15 +147,15 @@
 										<div>
 											<a class="nounderline" href="">					
 												<div>
-													<img src="" alt="PRODUTO A (BLUSA)" class="produto">
+													<img src="https://images.unsplash.com/photo-1601460588655-109bd38204db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="BLUSA" class="produto">
 												</div>
 												<div>
-												NOME PRODUTO  
+												Blusa de bolinha
 												</div>
 											</a>
 										</div>
 										<div>
-										PRECO
+										PRECO R$ x.xx
 										</div>
 										<div>
 										ADICIONAR AO CARRINHO (BOTAO)
@@ -152,6 +215,68 @@
 			</div>
 	</div>
 	<!-- FIM DO CONTEUDO DIVIDIDO EM GRID (CATEGORIAS E VITRINE) -->
+
+  <!-- Roda pé call to action -->
+
+  <section class="">
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color: #0a4275;">
+    <!-- Grid container -->
+    <div class="container-fluid d-flex flex-row align-items-center p-4 pb-0">
+      <!-- Section: CTA -->
+      <section class="">
+        <p class="d-flex ">
+          <span class="me-3"></span>
+          <button type="button" class="btn btn-outline-light btn-rounded">
+            Frete
+          </button>
+        </p>
+      </section>
+            <section class="">
+        <p class="d-flex  ">
+          <span class="me-3"></span>
+          <button type="button" class="btn btn-outline-light btn-rounded">
+            Formas De Pagamento
+          </button>
+        </p>
+      </section>
+            <section class="">
+        <p class="d-flex  ">
+          <span class="me-3"></span>
+          <button type="button" class="btn btn-outline-light btn-rounded">
+            Formas De Parcelamento
+          </button>
+        </p>
+      </section>
+            <section class="">
+        <p class="d-flex  ">
+          <span class="me-3"></span>
+          <button type="button" class="btn btn-outline-light btn-rounded">
+            Troca Do Produto
+          </button>
+        </p>
+      </section>
+            <section class="">
+        <p class="d-flex  ">
+          <span class="me-3"></span>
+          <button type="button" class="btn btn-outline-light btn-rounded">
+            Informações
+          </button>
+        </p>
+      </section>
+      <!-- Section: CTA -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Projeto Loja</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</section>
 
 
 
