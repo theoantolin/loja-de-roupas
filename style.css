@@ -2,15 +2,12 @@ main {
 	margin: 5px;
 }
 
-
-
-a.nounderline:link {
+.nounderline:any-link {
 	text-decoration:none;
-}
-
-h1.cabecalho {
 	color: black;
 }
+
+
 
 .logo {
 float: left;
@@ -19,8 +16,20 @@ max-height: 120px;
 
 }
 
+#conteudo > div > div {
 
+	height: 800px;
+}
 
+.produto {
+
+	max-width: 150px;
+	max-height: 150px;
+}
+
+#produto {
+	height: 350px;
+}
 
 
 /*
