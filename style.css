@@ -35,6 +35,11 @@ max-height: 40px;
 }
 
 
+#navbarSupportedContent {
+	flex-grow: 0;
+}
+
+
 /*
 .container {
 	margin-right: 10px;
