@@ -49,6 +49,17 @@ max-height: 40px;
 }
 
 
+
+input:focus, .btn:focus, select:focus {
+  box-shadow: 0 0 0 0 !important;
+	-webkit-box-shadow: none !important;
+}
+
+.form-check-input:checked {
+
+	border-radius: 0;
+}
+
 /*
 .container {
 	margin-right: 10px;
