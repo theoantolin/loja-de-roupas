@@ -2,7 +2,7 @@
 <html lang="pt-BR">
   	<head>
 				<meta charset="utf-8">
-				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<meta name="viewport" content="width=device-width, initial-scale=1">				 
 				<title>Loja de Roupas Femininas</title>
 				
 				<!--
@@ -58,7 +58,7 @@
 
 	<!-- INICIO NAVIGATION BAR (INSERIR RESPONSIVIDADE - MOBILE-FIRST) -->
 
-	<nav class="navbar navbar-expand navbar-light" style="background-color: #BBDAE7;">
+	<nav class="navbar navbar-expand navbar-light barranavegacao">
 		<div class="container-fluid align-items-between">			
 			<div>
 				<a class="navbar-brand " href="#">
@@ -104,16 +104,19 @@
 
 	<!-- ESPACO PARA O HISTORICO DE SELECAO DE ITENS -->
 
-	<!-- CONTEUDO DIVIDIDO EM GRID (CATEGORIAS E VITRINE) -->
+	<!-- INICIO CONTEUDO DIVIDIDO EM GRID (CATEGORIAS E VITRINE) -->
+
 	<div class="container-fluid" id="conteudo">
 			
 		
-			<div class="col-12">
+		<div class="col-12">
 
 			<section>
 					
 				<div class="row">
 					
+					<!-- INICIO CATEGORIAS -->
+
     			<div class="col-3 justify-content-center" id="categorias">
       			
 
@@ -400,14 +403,214 @@
   					</div>					
 					</div>
 
+					<!-- FIM CATEGORIAS -->
+
+					<!-- INICIO VITRINE -->
+
     			<div class="col-9 " id="vitrine">
-							<div class="container">
-								<div class="row ">
-									<div class="col-12  text-center">
-										<span>VITRINE</span>
-									</div>
-								</div>
-							</div>
+
+						<section class="my-1">
+            	<div class="jumbotron text-center">	    
+          			<h2 class="display-6 fs-4 text-muted ">Vitrine da Moda Feminina Nova Coleção Inverno 2021, confira</h1>									
+								<hr class="my-3">										
+								<p class="lead">     
+            			<a href="#" class="btn btn-secondary btn-sm mx-3">Moda Inverno 2021</a>
+            			<a href="#" class="btn btn-secondary btn-sm mx-3">Moda Verão 2021</a>
+								</p>								
+        			</div>
+      			</section>
+							
+						<section>
+
+						<div class="album py-3 px-3 bg-light">
+        			<div class="container px-0">
+          			<div class="row row-cols-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="card-img-top img-thumbnail img-responsive" data-src="holder.js/125%x125%" alt="125%x125%" src="https://image.freepik.com/free-photo/confident-stylish-lady-red-dress-posing-camera-while-holding-hands-waist-female-fashion_132075-5905.jpg" data-holder-rendered="true" style="height: 125%; width: 125%;">
+                <div class="card-body">
+                  <p class="card-text">Vestido manga longa liso cor vermelha - R$ 70,00 à vista ou 3xR$ 23,33</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    	<button type="button" class="btn btn-sm btn-outline-secondary">Carrinho</button>
+                    	<button type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button> 
+                    </div>             
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="card-img-top img-thumbnail img-responsive" data-src="holder.js/25%x200%" alt="25%x200%" src="https://image.freepik.com/free-photo/inspired-female-model-midi-skirt-dancing-with-pleasure-pink-wall-caucasian-sensual-girl-trendy-blouse-having-fun_197531-5280.jpg" data-holder-rendered="true" style="height: 200%; width: 100%;">
+                <div class="card-body">
+                  <p class="card-text">Vestido manga longa liso cor azul - R$ 70,00 à vista ou 3xR$ 23,33</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Carrinho</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
+                 src="curly-girl-in-beautiful-dress.jpg"
+                data-holder-rendered="true" style="height: 100%; width: 100%; display: block;">
+                 <div class="card-body">
+                  <p class="card-text">Vestido com manga estampado floral cor azul - R$ 70,00 á vista ou 3xR$ 23,33</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Carrinho</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="lovely-woman.jpg" data-holder-rendered="true" style="height: 100%; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Vestido sem manga liso cor vermelha - R$ 70,00 á vista ou 3xR$ 23,33</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Carrinho</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="senhora loira blusa laranja_m.png" data-holder-rendered="true" style="height: 100%; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Blusa manga longa tricô cor laranja - R$ 60,00 á vista ou 3xR$ 20,00</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Carrinho</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="moça negra casaco cinza.png" data-holder-rendered="true" style="height: 100%; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Conjunto Blusa/Camisa manga longa liso cor cinza/azul - R$ 140,00 á vista ou 3xR$ 46,66</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Carrinho</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="young-woman-with-long-straight-hair-at-studio-portrait-of-an-attractive-brunette-girl-fashion-model-wears-black-shirt-anf-jeans-sexy-female-model_m.jpg" data-holder-rendered="true" style="height: 100%; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Conjunto Camisa manga longa liso cor preta/Calça Jeans cor preta - R$ 170,00 á vista ou 3xR$ 56,66</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Carrinho</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="charming-dark-skinned-female-model-with-curly-hairstyle-in-trendy-blouse-and-pants-raising-arms-and-pointing-up.jpg" data-holder-rendered="true" style="height: 100%; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Conjunto Camisa manda longa lisa cor verde/Calça lisa cor bege - R$ 140,00 á vista ou 3xR$ 46,66</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Carrinho</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="beautiful-blonde-female-model-smiling-and-feeling-happy_m.jpg" data-holder-rendered="true" style="height: 100%; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Vestido manga longa liso cor roxa - R$ 70,00 á vista ou 3xR$ 23,33</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Carrinho</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="senhora loira blusa marrom.png" data-holder-rendered="true" style="height: 100%; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma introdução mais natural ao conteúdo adicional. No entanto, esse conteúdo é um pouco maior.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Carrinho</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="simple-white-v-neck-t-shirt-mockup-on-a-wooden-hanger.jpg" data-holder-rendered="true" style="height: 100%; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                  <p class="card-text">Blusa manga curta cor branca lisa - R$ 35,00 á vista ou 3xR$ 11,66
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Carrinho</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Favoritos</button>
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+						</section>
+
+
+
+
+
+
+						<!--
+							
+							
+							
 
 							<div class="container-fluid ">
 								<div class="row">
@@ -489,22 +692,21 @@
 									</div>
 								</div>
 
+							</div>
 
+						-->
 
-
-
-
-
-
-
-						</div>
 					</div>
+
+					<!-- FIM VITRINE -->
+
     		</div>
 
-				</section>
+			</section>
 
-			</div>
+		</div>
 	</div>
+
 	<!-- FIM DO CONTEUDO DIVIDIDO EM GRID (CATEGORIAS E VITRINE) -->
 
 

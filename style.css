@@ -39,6 +39,9 @@ max-height: 40px;
 	flex-grow: 0;
 }
 
+.barranavegacao {
+	background-color: #BBDAE7;
+}
 
 .rodapebotoes {
 	background-color: #0a4275;
@@ -51,14 +54,39 @@ max-height: 40px;
 
 
 input:focus, .btn:focus, select:focus {
-  box-shadow: 0 0 0 0 !important;
+  
 	-webkit-box-shadow: none !important;
+	box-shadow: 0 0 0 0 !important;
 }
 
 .form-check-input:checked {
 
 	border-radius: 0;
 }
+
+.album .card {
+
+	overflow: hidden;
+}
+
+.album .card img:hover {
+	-webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+
+}
+
+.album .card img {
+	max-width: 100%;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+
+}
+
+
 
 /*
 .container {
