@@ -82,7 +82,7 @@ input:focus, .btn:focus, select:focus {
 }
 
 .album .card div.card-body {
-	width: 220px;
+	max-width: 220px;
 	height: 140px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -116,16 +116,18 @@ input:focus, .btn:focus, select:focus {
 	padding-bottom: 10px;
 }
 
-a#comprar, a#salvar, {
+
+
+a#comprar.btn, a#salvar.btn {
 
 	/*
 	display: block flex !important;
 	*/
 
-	min-width: 90px !important;
-	min-height: 25px !important;
+	
 	padding-right: 8px;
 	padding-top: 4px;
+	margin: 0px;
 
 	/*
 	line-height: normal;
