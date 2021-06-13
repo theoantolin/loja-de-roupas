@@ -13,19 +13,15 @@ main {
 }
 
 .logo {
-
-max-width: 90px;
-max-height: 40px;
-
+	max-width: 90px;
+	max-height: 40px;
 }
 
 #conteudo > div > div {
-
 	height: 800px;
 }
 
 .produto {
-
 	max-width: 150px;
 	max-height: 150px;
 }
@@ -33,7 +29,6 @@ max-height: 40px;
 #produto {
 	height: 350px;
 }
-
 
 #navbarSupportedContent {
 	flex-grow: 0;
@@ -51,34 +46,24 @@ max-height: 40px;
 	background-color: #96BACA;
 }
 
-
-
-input:focus, .btn:focus, select:focus {
-  
+input:focus, .btn:focus, select:focus {  
 	-webkit-box-shadow: none !important;
 	box-shadow: 0 0 0 0 !important;
 }
 
 .form-check-input:checked {
-
 	border-radius: 0;
 }
 
 .album .card {
-
-
-
 	max-width: 220px;
-	height: 520px;
-
-
+	max-height: 520px;
 }
-
 
 .album .card div.img-card {
 	overflow: hidden;
 	max-width: 220px;
-	max-height: 320px;
+	height: 320px;
 }
 
 .album .card div.card-body {
@@ -107,6 +92,11 @@ input:focus, .btn:focus, select:focus {
 	margin: 1px;
 }
 
+.album .card div.card-body .card-title {
+	max-width: 220px;
+	height: 40px;
+}
+
 .album .card div.card-footer {
 	max-width: 220px;
 	height: 50px;
@@ -116,27 +106,13 @@ input:focus, .btn:focus, select:focus {
 	padding-bottom: 10px;
 }
 
-
-
-a#comprar.btn, a#salvar.btn {
-
-	/*
-	display: block flex !important;
-	*/
-
-	
+a.comprar, a.salvar {
 	padding-right: 8px;
 	padding-top: 4px;
 	margin: 0px;
-
-	/*
-	line-height: normal;
-
-	
-	vertical-align: middle;
-	*/
-
 }
+
+
 
 
 
