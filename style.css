@@ -46,7 +46,7 @@ main {
 	background-color: #96BACA;
 }
 
-input:focus, .btn:focus, select:focus {  
+input:focus, .btn:focus, select:focus {
 	-webkit-box-shadow: none !important;
 	box-shadow: 0 0 0 0 !important;
 }
@@ -79,7 +79,7 @@ div#conteudo div.row span.fw-semibold {
 	padding-bottom: 5px;
 }
 
-.album .card div.img-card:hover img{
+.album .card div.img-card:hover img {
 	-webkit-transform: scale(1.4);
   transform: scale(1.4);
 }
