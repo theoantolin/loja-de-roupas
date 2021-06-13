@@ -55,6 +55,10 @@ input:focus, .btn:focus, select:focus {
 	border-radius: 0;
 }
 
+div#conteudo div.row span.fw-semibold {
+	text-align: center;
+}
+
 .album .card {
 	max-width: 220px;
 	max-height: 520px;
