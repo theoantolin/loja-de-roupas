@@ -2,6 +2,14 @@ main {
 	margin: 3px;
 }
 
+
+
+@media screen and (min-width: 576px;) {
+	<body> {}
+}
+
+
+
 .nounderline:any-link {
 	text-decoration:none;
 	color: black;
