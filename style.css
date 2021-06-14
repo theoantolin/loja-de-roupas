@@ -4,8 +4,10 @@ main {
 
 
 
-@media screen and (min-width: 576px;) {
-	<body> {}
+
+
+@media (max-width: 576px) {
+	
 }
 
 
