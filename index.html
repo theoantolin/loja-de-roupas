@@ -631,54 +631,38 @@
   <!-- INICIO FOOTER BOTOES -->
 
   <footer class="footer rodapebotoes">
-		<div class="d-flex flex-row flex-wrap flex-sm-wrap flex-md-wrap  py-2 px-0 m-0">
-			<div class="row justify-content-center gx-0 gy-1">
-
-
-		<!--	row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-3 -->
-
-
-			
-
-
-				
-
-				<div class="col-6 ">
+		<div class="d-flex flex-row flex-xs-wrap flex-sm-wrap flex-md-wrap flex-lg-nowrap justify-content-center py-2 px-0 m-0">
+			<div class="row  gx-0 gy-2">
+				<div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">
 					<div class="input-group" role="group" aria-label="Botão Frete">
 						<input type="button" class="btn btn-sm btn-outline-info" value="Frete" id="inputfrete">
 					</div>
 				</div>
-
-
-
-				<div class="col-6 ">
+				<div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">
 					<div class="input-group" role="group" aria-label="Botão Pagamento">
 						<input type="button" class="btn btn-sm btn-outline-info" value="Formas de Pagamento" id="inputpagamento">
 					</div>
-				</div>
-
-
-
-				
-				<div class="col-6 ">
+				</div>				
+				<div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">
 					<div class="input-group" role="group" aria-label="Botão Parcelamento">
 						<input type="button" class="btn btn-sm btn-outline-info" value="Formas de Parcelamento" id="inputparcelamento">
 					</div>
 				</div>
-				
-
-				<div class="col-6 ">
+				<div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">
 					<div class="input-group" role="group" aria-label="Botão Troca do Produto">
 						<input type="button" class="btn btn-sm btn-outline-info" value="Troca do Produto" id="inputtroca">
 					</div>
 				</div>
-
-				<div class="col-6 ">
-					<div class="input-group" role="group" aria-label="Botão Informações sobre a Loja">
-						<input type="button" class="btn btn-sm btn-outline-info" value="Informações sobre a Loja" id="inputinformacoes">
+				<div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">
+					<div class="input-group" role="group" aria-label="Botão Contato">
+						<input type="button" class="btn btn-sm btn-outline-info" value="Contato" id="inputcontato">
 					</div>
 				</div>
-
+				<div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">
+					<div class="input-group" role="group" aria-label="Botão Informações sobre a Loja">
+						<input type="button" class="btn btn-sm btn-outline-info" value="Sobre a Loja" id="inputsobre">
+					</div>
+				</div>
 			</div>
 		</div>
 	</footer>
@@ -688,7 +672,7 @@
 	<!-- INICIO FOOTER COPYRIGHT -->
 
 	<footer class="footer rodapecopyright">
-    <div class="container text-center py-1">
+    <div class="container-fluid text-center py-1">
 			<span class="text-white">© 2021 Copyright: Projeto Loja Virtual</span>
 		</div>
 	</footer>
@@ -823,7 +807,11 @@
             alert("troca");
           });
 
-      $("#inputinformacoes").click(function() {
+			$("#inputcontato").click(function() {
+            alert("contato");
+          });
+
+      $("#inputsobre").click(function() {
             alert("informacoes");
           });
 
