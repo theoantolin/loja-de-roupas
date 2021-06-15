@@ -32,16 +32,16 @@
 
 				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     </head>
-    <body>
+    <body class="container-fluid">
 		
 		<!-- HEADER -->
 
 		<header>	
-    	<div class="container bg-light">
+    	<div class="container-fluid m-0 p-0 bg-light">
 
 				
       	<a href="index.html" class="nounderline">
-					<h1 class="m-0">Loja de Roupas Femininas</h1>
+					<h1 class="text-center m-0">Loja de Roupas Femininas</h1>
 				</a>
 
     	</div>
@@ -631,23 +631,54 @@
   <!-- INICIO FOOTER BOTOES -->
 
   <footer class="footer rodapebotoes">
-		<div class="container-fluid text-center py-2 d-block">
-			<div class="btn-group" role="group" aria-label="Itens Rodape">
-				<section class="me-1">	
-				<input type="button" class="btn btn-outline-info ml-2 mr-2" value="Frete" id="inputfrete">
-				</section>
-				<section class="ms-1 me-1">
-				<input type="button" class="btn btn-outline-info ml-2 mr-2" value="Formas de Pagamento" id="inputpagamento">
-				</section>
-				<section class="ms-1 me-1">
-				<input type="button" class="btn btn-outline-info ml-2 mr-2" value="Formas de Parcelamento" id="inputparcelamento">
-				</section>
-				<section class="ms-1 me-1">
-				<input type="button" class="btn btn-outline-info ml-2 mr-2" value="Troca do Produto" id="inputtroca">
-				</section>
-				<section class="ms-1">
-				<input type="button" class="btn btn-outline-info ml-2 mr-2" value="Informações sobre a Loja" id="inputinformacoes">
-				</section>			
+		<div class="d-flex flex-row flex-wrap flex-sm-wrap flex-md-wrap  py-2 px-0 m-0">
+			<div class="row justify-content-center gx-0 gy-1">
+
+
+		<!--	row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-3 -->
+
+
+			
+
+
+				
+
+				<div class="col-6 ">
+					<div class="input-group" role="group" aria-label="Botão Frete">
+						<input type="button" class="btn btn-sm btn-outline-info" value="Frete" id="inputfrete">
+					</div>
+				</div>
+
+
+
+				<div class="col-6 ">
+					<div class="input-group" role="group" aria-label="Botão Pagamento">
+						<input type="button" class="btn btn-sm btn-outline-info" value="Formas de Pagamento" id="inputpagamento">
+					</div>
+				</div>
+
+
+
+				
+				<div class="col-6 ">
+					<div class="input-group" role="group" aria-label="Botão Parcelamento">
+						<input type="button" class="btn btn-sm btn-outline-info" value="Formas de Parcelamento" id="inputparcelamento">
+					</div>
+				</div>
+				
+
+				<div class="col-6 ">
+					<div class="input-group" role="group" aria-label="Botão Troca do Produto">
+						<input type="button" class="btn btn-sm btn-outline-info" value="Troca do Produto" id="inputtroca">
+					</div>
+				</div>
+
+				<div class="col-6 ">
+					<div class="input-group" role="group" aria-label="Botão Informações sobre a Loja">
+						<input type="button" class="btn btn-sm btn-outline-info" value="Informações sobre a Loja" id="inputinformacoes">
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</footer>
@@ -773,7 +804,36 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
-		
+		<script>
+      window.setTimeout(function () {
+    
+      $("#inputfrete").click(function() {
+            alert("frete");
+          });
+      
+      $("#inputpagamento").click(function() {
+            alert("pagamento");
+          });
+
+      $("#inputparcelamento").click(function() {
+            alert("parcelamento");
+          });
+
+      $("#inputtroca").click(function() {
+            alert("troca");
+          });
+
+      $("#inputinformacoes").click(function() {
+            alert("informacoes");
+          });
+
+
+
+
+        });
+
+
+    </script>
 
 
 
