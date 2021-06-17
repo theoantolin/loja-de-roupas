@@ -1,62 +1,41 @@
-main {
-	margin: 3px;
+*, :before, :after {
+	box-sizing: border-box;
 }
 
-
-
-
-
 @media screen and (min-width: 1px) and (max-width: 575.98px) {
-	    body {
-				
-				max-width: 575px;
-				
-				margin: 0px;
+	  body {				
+			padding: 0px;				
 		}
 }
 
 @media screen and (min-width: 575.99px) and (max-width: 767.98px) {
     body {
-			max-width: 767px;
-			
-			margin: 0px;
+			padding: 0px;			
 		}
 }
 
 @media screen and (min-width: 767.99px) and (max-width: 991.98px) {
-		  body {
-				max-width: 991px;
-				
-				margin: 0px;
+		body {
+			padding: 0px;				
 		}
 }
 
 @media screen and (min-width: 991.99px) and (max-width: 1199.98px) {
-			body {
-				max-width: 1199px;
-				
-				margin: 0px;
+		body {
+			padding: 0px;
 		}
 }
 
 @media screen and (min-width: 1199.99px) and (max-width: 1399.98px) {
-			body {
-				max-width: 1399px;
-				
-				margin: 0px;
+		body {
+			padding: 0px;				
 		}
-}
-
-body.container-fluid {
-	 display: block;
-   
-   margin: 0px;
-   padding: 0px;
 }
 
 .nounderline:any-link {
 	text-decoration:none;
 	color: black;
+	margin: 0px;
 }
 
 #logoloja {
@@ -148,7 +127,6 @@ div#conteudo div.row span.fw-semibold {
 .card div.img-card:hover img {
 	-webkit-transform: scale(1.4);
   transform: scale(1.4);
-	
 }
 
 .card div.img-card img {
@@ -157,7 +135,6 @@ div#conteudo div.row span.fw-semibold {
   height: 100%;
   -webkit-transition: -webkit-transform .8s ease;
   transition: transform .8s ease;
-	
 }
 
 .card div.card-body .card-text {
@@ -197,10 +174,6 @@ footer div.input-group input.btn {
 	width: 150px;
 }
 
-p.lead {
-	margin: 0px;
-}
-
 .row ul {
 	display: flex;
 	justify-content: space-evenly;
@@ -212,19 +185,25 @@ p.lead {
 	margin: 0px;
 }
 
-div.form-check input.form-check-input {	
-	margin: 0px;	
-}
-
-div.form-check label.form-check-label {
-	margin-left: 2px;
-}
-
 div.form-check {	
 	display: flex;
 	padding: 0px;
 	margin-left: 2px;
 }
+
+div.form-check input.form-check-input {	
+	height: 14px;
+	width: 14px;
+	margin: 0px;
+	flex-shrink: 0;
+}
+
+div.form-check label.form-check-label {
+	text-align: start;
+	margin-left: 2px;
+}
+
+
 
 /*
 
