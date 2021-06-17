@@ -207,6 +207,11 @@ p.lead {
 	margin: 0px;
 }
 
+.row ul {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0px;
+}
 
 /*
 
