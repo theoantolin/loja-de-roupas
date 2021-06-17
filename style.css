@@ -125,11 +125,9 @@ div#conteudo div.row span.fw-semibold {
 }
 
 #vitrine div.col-12 {
-	flex-basis: content;
-	
+	flex-basis: content;	
 	padding: 0px;
 	margin: 2px;
-	
 }
 
 .card div.img-card {
@@ -186,14 +184,10 @@ a.comprar, a.salvar {
 	margin: 0px;
 }
 
-
-
 footer div.input-group {
 	justify-content: center;
 	margin: 2px;
 }
-
-
 
 footer div.input-group input.btn {
 	padding-top: 4px;
@@ -211,6 +205,25 @@ p.lead {
 	display: flex;
 	justify-content: space-evenly;
 	margin: 0px;
+}
+
+#categorias ul {
+	display: block;	
+	margin: 0px;
+}
+
+div.form-check input.form-check-input {	
+	margin: 0px;	
+}
+
+div.form-check label.form-check-label {
+	margin-left: 2px;
+}
+
+div.form-check {	
+	display: flex;
+	padding: 0px;
+	margin-left: 2px;
 }
 
 /*

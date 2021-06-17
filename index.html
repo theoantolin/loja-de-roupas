@@ -101,24 +101,28 @@
 			
 					
 				<div class="row justify-content-center g-0">
-					
+
+
+
+
 					<!-- INICIO CATEGORIAS -->
 
-    			<div class="col-2 col-lg-2 bg-white" id="categorias">
+    			<div class="col-4 col-lg-2 bg-white" id="categoriascoluna">
       			
+						<div class="container-fluid text-center">
+
+							<button type="button" class="btn btn-primary btn-md" data-toggle="collapse" data-target="#categorias" id="btncat" >
+      					Categorias
+    					</button>
 
 						
 
 
-    					<div class="container-fluid">
-								<div>
-      						<h3 class="fs-4 mt-1 text-center">Categorias</h3>
-								</div>
-							
+    				
+							<div id="categorias" class="collapse">
+      						
 
-
-
-    					<ul class="list-unstyled ps-0">
+							<ul class="list-unstyled ps-0">
 
       					<li class="mb-1">
 
@@ -392,17 +396,25 @@
 
 								-->
     					</ul>
-							</div>
 
+							</div>
+							
+
+
+
+    					
+
+						</div>
+					</div>
 
   										
-					</div>
+					
 
 					<!-- FIM CATEGORIAS -->
 
 					<!-- INICIO VITRINE -->
 
-    			<div class="col-10 col-lg-10 " id="vitrine">
+    			<div class="col-8 col-lg-10 " id="vitrine">
 						<div class="container-fluid d-block">
 						
             		<div class="text-center">
@@ -420,12 +432,12 @@
 							
 						<!--	row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 -->
 
-								<div class="container-fluid px-0">	
-          				<div class="row  g-0">
-										<ul class="flex-wrap">
+							<div class="container-fluid px-0">	
+          			<div class="row g-0">
+									<ul class="flex-wrap">
 										<!-- PRIMEIRA IMAGEM -->
 
-            				<div class="col-12 col-sm-6 col-md-4 item1">
+            				<div class="col-12 col-sm-6 col-md-4">
 										
               				<div class="card shadow-sm h-100 w-100">
 												<div class="img-card">
@@ -449,7 +461,7 @@
 
 										<!-- SEGUNDA IMAGEM -->
 
-            				<div class="col-12 col-sm-6 col-md-4 item2">
+            				<div class="col-12 col-sm-6 col-md-4">
               				<div class="card shadow-sm h-100 w-100">
 												<div class="img-card">
                 					<img class="card-img-top img-thumbnail img-responsive" data-src="holder.js/575x790" data-holder-rendered="true" src="img/loira-vestido-azul.jpg" alt="Vestido Azul Comprido" title="Vestido Azul Comprido">
@@ -607,9 +619,9 @@
                   			</div>
                 			</div>
             				</div>
-										</ul>
-              		</div>
-            		</div>
+									</ul>
+              	</div>
+            	</div>
 							
 						
 					</div>
@@ -633,7 +645,7 @@
 
 
 
-  <!-- INICIO RODAPÉ (EDITAR - COLOCAR DENTRO DE UM CONTAINER-FLUID ROW E COL) -->
+  <!-- INICIO RODAPÉ -->
 
   <!-- INICIO FOOTER BOTOES -->
 
@@ -822,7 +834,9 @@
             alert("informacoes");
           });
 
-
+			$("#btncat").click(function(){
+    		$("div.row .collapse").collapse('toggle');
+  				});
 
 
         });
