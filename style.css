@@ -4,19 +4,19 @@
 
 @media screen and (min-width: 1px) and (max-width: 575.98px) {
 	  body {				
-			padding: 0px;				
+			padding: 0px;
 		}
 }
 
 @media screen and (min-width: 575.99px) and (max-width: 767.98px) {
     body {
-			padding: 0px;			
+			padding: 0px;
 		}
 }
 
 @media screen and (min-width: 767.99px) and (max-width: 991.98px) {
 		body {
-			padding: 0px;				
+			padding: 0px;
 		}
 }
 
@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 1199.99px) and (max-width: 1399.98px) {
 		body {
-			padding: 0px;				
+			padding: 0px;
 		}
 }
 
@@ -203,6 +203,29 @@ div.form-check label.form-check-label {
 	margin-left: 2px;
 }
 
+nav div.input-group, nav input {
+	position: static !important;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+}
+
+nav input.form-control {
+	position: static !important;
+	width: 200px !important;
+	
+	flex-grow: 0 !important;
+	flex-shrink: 0 !important;
+}
+
+nav > div {
+	display: block !important;
+}
+
+nav .row div.container-fluid {
+	text-align: center;
+	align-self: center;
+}
 
 /*
 
