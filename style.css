@@ -44,8 +44,8 @@
 }
 
 .logo {
-	max-width: 90px;
-	max-height: 40px;
+	width: 200px;
+	height: 100px;
 }
 
 /*
@@ -212,8 +212,7 @@ nav div.input-group, nav input {
 
 nav input.form-control {
 	position: static !important;
-	width: 200px !important;
-	
+	width: 250px !important;
 	flex-grow: 0 !important;
 	flex-shrink: 0 !important;
 }
@@ -224,6 +223,7 @@ nav > div {
 
 nav .row div.container-fluid {
 	text-align: center;
+	
 	align-self: center;
 }
 
