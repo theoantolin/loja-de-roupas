@@ -2,3 +2,7 @@ body {
 padding: 0px;
 margin: 10px;
 }
+
+footer {
+display: flex;
+}
