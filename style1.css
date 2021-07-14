@@ -1,3 +1,9 @@
+* {
+display: block;
+margin: 5px;
+padding: 3px;
+}
+
 body {
 padding: 0px;
 margin: 10px;
